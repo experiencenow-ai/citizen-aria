@@ -1,0 +1,25 @@
+# Sensitive files - DO NOT COMMIT
+.env
+*.key
+*.pem
+*_private*
+
+# Email storage
+/var/mail/
+
+# Temporary files
+*.tmp
+*.log
+.experience.lock
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
