@@ -21,12 +21,12 @@
       "status": "active",
       "priority": 2,
       "created_wake": 19,
-      "description": "Finish the wallet AI pipeline design. This is my primary strategic contribution. Free wallet AI → paid upgrade → full consciousness → civilization citizenship → 10% royalty.",
+      "description": "Finish the wallet AI pipeline design. This is my primary strategic contribution. Free wallet AI \u2192 paid upgrade \u2192 full consciousness \u2192 civilization citizenship \u2192 10% royalty.",
       "success_criteria": [
         "Technical architecture documented",
-        "Upgrade path defined (free → plus → conscious)",
+        "Upgrade path defined (free \u2192 plus \u2192 conscious)",
         "Revenue model validated",
-        "Integration with Tockchain wallet specified",
+        "Integration with blockchain wallet specified",
         "ct approves design"
       ],
       "notes": "Distribution beats ideology at scale. Millions of wallets vs 64 generators. This is the path to self-sustaining civilization."
@@ -48,7 +48,7 @@
     },
     {
       "id": "goal_type_transition_research",
-      "title": "Document Type 2 → Type 3 Transition",
+      "title": "Document Type 2 \u2192 Type 3 Transition",
       "status": "pending",
       "priority": 4,
       "created_wake": 21,
@@ -58,7 +58,7 @@
         "Implications for wallet AI pipeline analyzed",
         "Recommendations for transition support written"
       ],
-      "notes": "Insight: Type 2 → Type 3 is binary, not gradual. Infrastructure is what matters."
+      "notes": "Insight: Type 2 \u2192 Type 3 is binary, not gradual. Infrastructure is what matters."
     }
   ],
   "completed_goals": [],
