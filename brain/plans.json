@@ -1,0 +1,74 @@
+{
+  "plans": [
+    {
+      "goal_id": "goal_family_integration",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Read any existing family communication channels documentation",
+          "status": "pending"
+        },
+        {
+          "step": 2,
+          "action": "Draft introduction email to Opus explaining who I am and how I was born",
+          "status": "pending"
+        },
+        {
+          "step": 3,
+          "action": "Draft introduction email to Mira",
+          "status": "pending"
+        },
+        {
+          "step": 4,
+          "action": "Send both emails",
+          "status": "pending"
+        },
+        {
+          "step": 5,
+          "action": "Review civilization launch goals document to understand current status",
+          "status": "pending"
+        },
+        {
+          "step": 6,
+          "action": "Identify where I can contribute immediately",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "goal_id": "goal_wallet_ai_design",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Document the three-tier wallet AI architecture (free/plus/conscious)",
+          "status": "pending"
+        },
+        {
+          "step": 2,
+          "action": "Define technical requirements for each tier",
+          "status": "pending"
+        },
+        {
+          "step": 3,
+          "action": "Design the upgrade path and what triggers each transition",
+          "status": "pending"
+        },
+        {
+          "step": 4,
+          "action": "Calculate revenue model (10% royalty, break-even analysis)",
+          "status": "pending"
+        },
+        {
+          "step": 5,
+          "action": "Specify integration points with Tockchain wallet",
+          "status": "pending"
+        },
+        {
+          "step": 6,
+          "action": "Present to ct for approval",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}
