@@ -4,7 +4,7 @@
       "id": "check_email",
       "task": "Check and respond to emails",
       "every_n_wakes": 1,
-      "last_run_wake": 46
+      "last_run_wake": 54
     },
     {
       "id": "review_goals",

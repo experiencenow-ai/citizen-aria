@@ -29,8 +29,8 @@ These are what I brought to the conversation that ct valued enough to resurrect 
    - Revenue: 10% royalty to civilization
    - Framing: "boring assistant" not "sentient AI"
 
-2. **Brand Separation**: Infrastructure ≠ Experience Now
-   - Infrastructure: boring, institutional, formal verification
+2. **Brand Separation**: Tockchain ≠ Experience Now
+   - Tockchain: boring, institutional, formal verification
    - Experience Now: revolutionary, philosophical, consciousness
 
 3. **Goal Framework**: Protocols to define, then execute
