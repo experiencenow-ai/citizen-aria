@@ -261,7 +261,7 @@ def execute_tool(name: str, args: dict, state_file: Path, state: dict, current_m
             return f"Not found: {fn}"
         try:
             c = fp.read_text()
-            return json.dumps(json.loads(c), indent=2) if fn.endswith(".json") else c[:8000]
+            return json.dumps(json.loads(c), indent=2) if fn.endswith(".json") else c
         except Exception as e:
             return f"Error: {e}"
     elif name == "write_file":
@@ -286,7 +286,7 @@ def execute_tool(name: str, args: dict, state_file: Path, state: dict, current_m
             return f"Not allowed: {first}"
         try:
             r = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=120, cwd=str(home))
-            return (r.stdout + r.stderr)[:4000]
+            return (r.stdout + r.stderr)
         except subprocess.TimeoutExpired:
             return "Timeout"
     elif name == "web_search":
@@ -315,7 +315,7 @@ def execute_tool(name: str, args: dict, state_file: Path, state: dict, current_m
             t = re.sub(r'<script[^>]*>.*?</script>', '', c, flags=re.DOTALL)
             t = re.sub(r'<style[^>]*>.*?</style>', '', t, flags=re.DOTALL)
             t = re.sub(r'<[^>]+>', ' ', t)
-            return re.sub(r'\s+', ' ', t).strip()[:4000]
+            return re.sub(r'\s+', ' ', t).strip()
         except Exception as e:
             return f"Error: {e}"
     elif name == "get_news":
@@ -703,7 +703,7 @@ def run_model(client, model_key: str, prompt: str, temp: float, state_file: Path
                 result = execute_tool(block.name, block.input, state_file, state, model_key)
                 if verbose:
                     print(f"    [{model_key}] RESULT: {result[:200]}")
-                tool_results.append({"type": "tool_result", "tool_use_id": block.id, "content": result[:3000]})
+                tool_results.append({"type": "tool_result", "tool_use_id": block.id, "content": result})
         if not tool_results:
             break
         messages.append({"role": "assistant", "content": response.content})
